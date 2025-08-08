@@ -1,8 +1,8 @@
 /*
 
 	Author: Hugo Devant
-	Copyright: DigiPen
-	Sources: 
+	Copyright: DigiPen Institute of Technology
+	Sources: cppreference
 
 */
 
@@ -376,3 +376,4 @@ static auto SpecBroadcast = [](const std::string& e, const int& id) {
 };
 
 #endif
+
