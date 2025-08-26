@@ -1,6 +1,7 @@
 # Code-Samples
 A collection of code excerpts that I have written.
-* These do not work standalone *
+
+\* These do not work standalone *
 
 # Messaging
 A communication system for various engine systems in a game engine I worked on. The systems works as an dynamic dispatch system based on events it receives and what other systems have bound themselves to. When I created this, I did not do any research (apart from stl documentation) as I liked trying to figure out my own solutions to problems; This leading to an independent "invention" of a dynamic dispatch system. Of course, as always, the code is not perfect and there are many things I would change now as I learn more, such as cleaning up reference usage (some things shouldn't be references as they are trivially copyable), switching to using string views instead of raw strings to avoid constructor costs, utilizing variant to compact the storage of the functions, etc. This was made about a year ago, and has undergone almost zero changes since it's implementation and integration into the engine, even with *heavy* usage of it (almost every system, engine and gameplay, uses it to communicate).
